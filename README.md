@@ -20,14 +20,12 @@ A modular, extensible and editor-friendly Save System for Unity, supporting mult
 ### 🧠 PlayerPrefs
 - Stored in system registry (Windows) or plist (macOS)
 - Serialized via Odin using Base64 + JSON
-
 ### 📄 JSON
 - Located at:
   ```
   Application.persistentDataPath/player_data.json
   ```
 - Fully human-readable
-
 ### 📂 XML
 - Located at:
   ```
